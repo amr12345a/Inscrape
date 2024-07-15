@@ -23,7 +23,7 @@ Inscrape is a powerful and efficient tool for scraping detailed data from Instag
 To get started with Inscrape, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/amr12345a/inscrape.git
+git clone https://github.com/amr12345a/Inscrape
 cd inscrape
 ```
 
