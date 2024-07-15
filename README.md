@@ -14,7 +14,7 @@ Inscrape is a powerful and efficient tool for scraping detailed data from Instag
 
 - Scrape detailed data from Instagram accounts
 - Scrape detailed data from Facebook accounts
-- Save the scraped data in a structured format (e.g., CSV, JSON)
+- Save the scraped data in a structured format (txt file)
 - Highly customizable scraping parameters
 - Easy to use and extend
 
