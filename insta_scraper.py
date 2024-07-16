@@ -114,7 +114,8 @@ def scraper(driver, email, password):
     driver.find_element(By.NAME, "username").send_keys(email)
     driver.find_element(By.NAME, "password").send_keys(password)
     # Clicking on login button
-    driver.find_element(By.CSS_SELECTOR, ".L3NKy").click()
+    driver.find_element(By.CSS_SELECTOR, '#loginForm [type="submit"]').click()
+    # TODO find make the login function and make it call itself in case of wrong password and email or at least show error message
     time.sleep(10)
     for fik in heads:
         # TODO replace this with a better pythonic way to get the data
