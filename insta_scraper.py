@@ -88,6 +88,7 @@ def main():
     heads, headss_num = get_heads()
 
     # Opening the window
+    # TODO use undected_chrome driver to avoid getting block on users accounts + use english languge just we may need to use in Xpath
     driver = webdriver.Chrome()
     # Asking For email, and password
     email = input("Email or Username: ")
